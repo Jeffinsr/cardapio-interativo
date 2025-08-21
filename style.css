@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.titulo-lanchonete {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ff6b6b;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ff6b6b;
+    padding-bottom: 5px;
+}
+
+.container-lanchonete {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+#lista-lanches {
+    margin-bottom: 20px;
+}
+
+#lista-lanches li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#lista-lanches li:hover {
+    transform: translateY(-2px);
+    background-color: #e0e0e0;
+}
+
+#lista-lanches button {
+    padding: 6px 15px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+#lista-lanches button:hover {
+    background-color: #ff4757;
+}
+
+#finalizar-pedido {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #1e90ff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    margin-bottom: 20px;
+}
+
+#finalizar-pedido:hover {
+    background-color: #0d6efd;
+    transform: translateY(-2px);
+}
+
+#resumo-pedido {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#resumo-pedido p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+/* Total destacado */
+.resumo-total {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1d3557;  
+    border-top: 2px solid #457b9d;
+    padding-top: 8px;
+}
+
+.btn-limpar {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-limpar:hover {
+    background-color: #b91c1c; 
+}
